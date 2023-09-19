@@ -1,0 +1,52 @@
+1.a long int
+b.float
+c.char
+d.int
+
+x 2.数字存储位数超过int所占用位数
+
+3.int32_t / long int 可移植，引用stdint.h即可统一标准。
+
+4.a. char字符常量，退行。
+b.int整数型 整数1066
+c.float浮点数 实数99.44
+d.int整数 16进制数 10进制为170
+e.float浮点数 2.0*10^30
+
+5.第一行缺少# 第二行声明函数步骤不完整 void main(void) 或int mian(void) 代码行补充return 0;
+g 定义时缺少整数部分 、 (x){rate和g与*之间没有加空格}
+{}使用错误，变成了（）
+（漏）第4行 ； 改为 ,
+
+6.1.int %d
+2.int %x %X %#x %#X 
+3.字符常量 char %c 
+x 4.float %f （%e）
+5.char %c 
+6.float %f 
+7.long int %ld 
+8.float %f 
+X 9.float %f  (%a)
+
+7.1.int %d
+2.long float %le 
+3.char %c 
+x 4.int %d (%ld)
+5.char %c 
+6.float %f 
+7.int %x 
+8.int %d
+
+8.d ld f c 
+
+9.ch = '\r' 13 '\015' '\xd'
+
+x (重看) 10.line 1 /* */
+line 3 int --
+line 4 "
+line 7 ;
+
+11.a.换行
+b.加入\
+c.加入”
+x d.水平制表符
