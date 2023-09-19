@@ -1,14 +1,11 @@
 //2.12 编程练习 8
 #include<stdio.h>
-int main()
-{
-    printf("starting now:\n");
-    one_three();
-    printf("done!");
 
-    getchar();
-    return 0;
+void two(void)
+{
+    printf("two\n");
 }
+
 
 void one_three(void)
 {
@@ -17,7 +14,13 @@ void one_three(void)
     printf("three\n");
 }
 
-void two(void)
+
+int main()
 {
-    printf("two\n");
+    printf("starting now:\n");
+    one_three();
+    printf("done!");
+
+    getchar();
+    return 0;
 }
