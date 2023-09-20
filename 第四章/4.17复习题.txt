@@ -1,0 +1,40 @@
+1.只会输出名，无姓。scanf()函数读取到空格后终止向后读取。
+
+2.a.2.345e2=234.5 输出234.50
+b.H
+c.His Hamlet was funny without being vulgat.
+has 43 chracters.
+d.1.20e3 1201.00
+
+3."\"\""
+
+4.#include<stdio.h>
+#define "
+#define ...
+int main()
+char name[40];
+%s 
+%d &（漏）
+int xp =
+‘B'
+return 0;
+
+5.printf("This copy of \"%s\" sells for $%.2f.\nThat is %2f（？？？？） of list.",BOOK,cost,percent);
+
+6.%d %4X %10.3f %12。2e %-30s
+
+7.a.%15uld %4#x %-12E(x) %+10.3f %-8s(x)
+
+8.a.%6.4d %o(*) %2c %+.2f(x) %-5s(x)
+
+9.a.int a; scanf("%d:,&a);
+b.float b,c;scanf("%f %f",&b,&c);
+c.char d[40];scanf("%s",d);
+d.char e[40];int f;scanf("%s %d",e,f);
+e.int g;scanf("catch %d",g);
+
+(x)10.\0
+
+11.zd
+
+12.否
