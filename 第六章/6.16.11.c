@@ -2,12 +2,15 @@
 #include <string.h>
 int main()
 {
-    char shuzi[400];
-    scanf("%s",shuzi);
-    int a = strlen(shuzi);
-    for (int b = a; b >= 0; b--)
+    int shuzi[400];
+    for (int i = 0; i < 8; i++)
     {
-        printf("%c", shuzi[b-1]);
+        scanf("%d ", &shuzi[i]);
+    }
+
+    for (int b = 7; b >= 0; b--)
+    {
+        printf("%d", shuzi[b - 1]);
     }
     return 0;
 }
