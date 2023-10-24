@@ -1,17 +1,12 @@
 #include<stdio.h>
-
+#include<string.h>
 int main()
 {
     char shuzu[255];
     int a;
-    int i = 0;
-    do
-    {
-        i++;
-    } while (a = scanf("%c",&shuzu[i]));
-    
-        
-    for (int b = i; b >= 0; b--)
+    scanf("%s",shuzu);
+    a = strlen(shuzu);
+    for (int b = a-1; b >= 0; b--)
     {
         printf("%c",shuzu[b]);
     }
